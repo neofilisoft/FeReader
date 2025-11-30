@@ -1,5 +1,6 @@
 # FeReader
 PDF & EPUB Viewer
+
 Build tool
 - Python 3.13.0
 - Pyinstaller 6.11.0
