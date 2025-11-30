@@ -12,3 +12,6 @@ PDF & EPUB Viewer
 ### Windows PowerShell
 ```powershell
 Get-FileHash .\my_app_installer.exe -Algorithm SHA256
+### Linux/Mac
+```
+sha256sum fereader_installer.exe
