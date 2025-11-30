@@ -4,7 +4,7 @@ Build tool
 - Python 3.13.0
 - Pyinstaller 6.11.0
 - UPX 5.0.2.0
-- Inno Setup 6 (https://jrsoftware.org/isdl.php)
+- Inno Setup 6.6.1 https://jrsoftware.org/isdl.php
 
 ## Installer
 **Windows Installer (v1.0)**
