@@ -17,7 +17,7 @@ Build tool
 
 ### Windows PowerShell
 ```powershell
-Get-FileHash .\my_app_installer.exe -Algorithm SHA256
+Get-FileHash .\fereader_installer.exe -Algorithm SHA256
 ```
 ### Linux/Mac
 ```terminal
