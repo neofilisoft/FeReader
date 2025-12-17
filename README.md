@@ -7,10 +7,9 @@ Build tool
 - Inno Setup 6.6.1 https://jrsoftware.org/isdl.php
 
 ## Installer
-**Windows Installer (v1.0)**
+**Windows Installer (v1.1)**
 - File: `fereader_installer.exe`
 - SHA256: `A1DB22AF86808A0E9175A80E2B8C3047DAF903811B7787CFB80A40D5AAED71AB`
-- Size: [47.9] MB
 
 ## Verify Integrity
 
