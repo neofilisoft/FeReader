@@ -11,7 +11,7 @@ Build tool
 Supported languages
 - English
 - Thai
-- Other languages coming soon
+- More languages ​​are coming soon
 
 ## Installer
 **Windows Installer (v1.1)**
