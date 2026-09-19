@@ -6,7 +6,8 @@ namespace FeReader {
 enum class BookType {
     None,
     Pdf,
-    Epub
+    Epub,
+    Comic
 };
 
 enum class ViewOrientation {
@@ -14,7 +15,7 @@ enum class ViewOrientation {
     Horizontal
 };
 
-static const QString APP_VERSION = QStringLiteral("3.1.2");
+static const QString APP_VERSION = QStringLiteral("4.0.0");
 static const QString ORG_NAME    = QStringLiteral("Neofilisoft");
 static const QString APP_NAME    = QStringLiteral("FeReader");
 

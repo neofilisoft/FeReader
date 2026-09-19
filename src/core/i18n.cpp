@@ -34,6 +34,16 @@ static const QMap<QString, QString> s_en = {
     { "view",           "View"                   },
     { "vertical",       "Vertical"               },
     { "horizontal",     "Horizon"                },
+    { "print",          "Print"                  },
+    { "edit",           "Edit"                   },
+    { "rotate_cw",      "Rotate 90 Clockwise"    },
+    { "rotate_ccw",     "Rotate 90 Counter-CW"   },
+    { "delete_page",    "Delete Page"            },
+    { "merge_pdf",      "Merge PDFs..."          },
+    { "extract_pages",  "Extract Pages..."       },
+    { "add_note",       "Add Note..."            },
+    { "save",           "Save"                   },
+    { "save_as",        "Save As..."             },
 };
 
 static const QMap<QString, QString> s_th = {
@@ -63,6 +73,16 @@ static const QMap<QString, QString> s_th = {
     { "view",           "\u0e21\u0e38\u0e21\u0e21\u0e2d\u0e07"                                  },
     { "vertical",       "\u0e41\u0e19\u0e27\u0e15\u0e31\u0e49\u0e07"                           },
     { "horizontal",     "\u0e2d\u0e48\u0e32\u0e19\u0e41\u0e1a\u0e1a\u0e0b\u0e49\u0e32\u0e22\u0e02\u0e27\u0e32\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e2b\u0e19\u0e31\u0e07\u0e2a\u0e37\u0e2d" },
+    { "print",          "\u0e1e\u0e34\u0e21\u0e1e\u0e4c"                                        },
+    { "edit",           "\u0e41\u0e01\u0e49\u0e44\u0e02"                                        },
+    { "rotate_cw",      "\u0e2b\u0e21\u0e38\u0e19\u0e15\u0e32\u0e21\u0e40\u0e02\u0e47\u0e21 90\u00b0" },
+    { "rotate_ccw",     "\u0e2b\u0e21\u0e38\u0e19\u0e17\u0e27\u0e19\u0e40\u0e02\u0e47\u0e21 90\u00b0" },
+    { "delete_page",    "\u0e25\u0e1a\u0e2b\u0e19\u0e49\u0e32"                                  },
+    { "merge_pdf",      "\u0e23\u0e27\u0e21\u0e44\u0e1f\u0e25\u0e4c PDF..."                    },
+    { "extract_pages",  "\u0e41\u0e22\u0e01\u0e2b\u0e19\u0e49\u0e32\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23..." },
+    { "add_note",       "\u0e43\u0e2a\u0e48\u0e42\u0e19\u0e49\u0e15\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21..." },
+    { "save",           "\u0e1a\u0e31\u0e19\u0e17\u0e36\u0e01"                                  },
+    { "save_as",        "\u0e1a\u0e31\u0e19\u0e17\u0e36\u0e01\u0e40\u0e1b\u0e47\u0e19..."       },
 };
 
 // -------------------------------------------------------
