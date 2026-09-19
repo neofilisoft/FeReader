@@ -44,6 +44,14 @@ private slots:
     void toggleFullscreen();
     void openSettingsDialog();
     void openConvertDialog();
+    void printDocument();
+    void rotatePageCw();
+    void rotatePageCcw();
+    void deleteCurrentPage();
+    void mergePdfFiles();
+    void extractPdfPages();
+    void addPdfNote();
+    void savePdfCopy();
 
 private:
     void createActions();
@@ -70,6 +78,7 @@ private:
     double  m_currentZoom     = 1.0;
     FeReader::ViewOrientation m_viewOrientation = FeReader::ViewOrientation::Vertical;
     QString m_currentBookTitle;
+    QString m_currentFilePath;
     int     m_currentIndex = 0;
 
     // UI
@@ -83,11 +92,21 @@ private:
 
     QToolButton     *m_menuBtn  = nullptr;
     QToolButton     *m_viewBtn  = nullptr;
+    QToolButton     *m_editBtn  = nullptr;
     QMenu           *m_mainMenu = nullptr;
     QMenu           *m_viewMenu = nullptr;
+    QMenu           *m_editMenu = nullptr;
     QAction         *m_prevAction      = nullptr;
     QAction         *m_nextAction      = nullptr;
     QAction         *m_fullscreenAction = nullptr;
+    QAction         *m_printAction     = nullptr;
+    QAction         *m_rotateCwAction  = nullptr;
+    QAction         *m_rotateCcwAction = nullptr;
+    QAction         *m_deletePageAction = nullptr;
+    QAction         *m_mergePdfAction  = nullptr;
+    QAction         *m_extractPagesAction = nullptr;
+    QAction         *m_addNoteAction   = nullptr;
+    QAction         *m_saveAsAction    = nullptr;
     QAction         *m_vAct  = nullptr;
     QAction         *m_hAct  = nullptr;
     ClickableLabel  *m_zoomLabel = nullptr;
