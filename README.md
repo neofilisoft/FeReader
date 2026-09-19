@@ -94,4 +94,4 @@ The compiled binary and required runtime dependencies will be generated inside t
 ```
 
 ## License
-Copyright 2026 Neofilisoft. Licensed under the MIT License.
+Copyright 2026 Neofilisoft.
